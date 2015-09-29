@@ -214,7 +214,7 @@
             gridView.needShowBubbleView = YES;
             //gridView.bubbleColor = [UIColor greenColor];
             NSString *bubbleText = [NSString stringWithFormat:@"%.1f", firstValue];
-            bubbleText = [NSString stringWithFormat:@"最高%@",bubbleText];
+            bubbleText = [NSString stringWithFormat:@"最低%@",bubbleText];
             gridView.bubbleText = bubbleText;
             gridView.yValueColor = MIN_VALUE_COLOR;
             gridView.lineStyle = solidLineStyle;
@@ -226,7 +226,7 @@
             gridView.needShowBubbleView = YES;
             //gridView.bubbleColor = [UIColor redColor];
             NSString *bubbleText = [NSString stringWithFormat:@"%.1f", firstValue];
-            bubbleText = [NSString stringWithFormat:@"最低%@",bubbleText];
+            bubbleText = [NSString stringWithFormat:@"最高%@",bubbleText];
             gridView.bubbleText = bubbleText;
             gridView.yValueColor = MAX_VALUE_COLOR;
             gridView.lineStyle = solidLineStyle;
@@ -259,7 +259,7 @@
         _lastGridView.needShowBubbleView = YES;
         //lastGridView.bubbleColor = [UIColor greenColor];
         NSString *bubbleText = [NSString stringWithFormat:@"%.1f", firstValue];
-        bubbleText = [NSString stringWithFormat:@"最高%@",bubbleText];
+        bubbleText = [NSString stringWithFormat:@"最低%@",bubbleText];
         _lastGridView.bubbleText  = bubbleText;
         _lastGridView.lineStyle = solidLineStyle;
         _lastGridView.yValueColor = MIN_VALUE_COLOR;
@@ -270,7 +270,7 @@
         _lastGridView.needShowBubbleView = YES;
         //lastGridView.bubbleColor = [UIColor redColor];
         NSString *bubbleText = [NSString stringWithFormat:@"%.1f", firstValue];
-        bubbleText = [NSString stringWithFormat:@"最低%@",bubbleText];
+        bubbleText = [NSString stringWithFormat:@"最高%@",bubbleText];
         _lastGridView.bubbleText  = bubbleText;
         _lastGridView.lineStyle = solidLineStyle;
         _lastGridView.yValueColor = MAX_VALUE_COLOR;
@@ -289,7 +289,7 @@
         _lastGridView.extraBubbleBgImageName = MIN_VALUE_BUBLE_IMAGE;
         _lastGridView.needShowExtraBubbleView = YES;
         NSString *bubbleText = [NSString stringWithFormat:@"%.1f", secondValue];
-        bubbleText = [NSString stringWithFormat:@"最高%@",bubbleText];
+        bubbleText = [NSString stringWithFormat:@"最低%@",bubbleText];
         _lastGridView.extraBubbleText = bubbleText;
         _lastGridView.extraLineStyle = solidLineStyle;
         _lastGridView.extraYValueColor = MIN_VALUE_COLOR;
@@ -299,7 +299,7 @@
         _lastGridView.extraBubbleBgImageName = MAX_VALUE_BUBLE_IMAGE;
         _lastGridView.needShowExtraBubbleView = YES;
         NSString *bubbleText = [NSString stringWithFormat:@"%.1f", secondValue];
-        bubbleText = [NSString stringWithFormat:@"最低%@",bubbleText];
+        bubbleText = [NSString stringWithFormat:@"最高%@",bubbleText];
         _lastGridView.extraBubbleText = bubbleText;
         _lastGridView.extraLineStyle = solidLineStyle;
         _lastGridView.extraYValueColor = MAX_VALUE_COLOR;
